@@ -1,6 +1,4 @@
-Perfect 👍 let’s make a **beautiful, detailed README** for your **Portfolio** project (the third zip you uploaded). This will make it GitHub-ready and also help you explain it in interviews.
 
----
 
 # 🌟 Personal Portfolio Website
 
