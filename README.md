@@ -1,13 +1,117 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🌟 Personal Portfolio Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern, interactive, and fully responsive **developer portfolio website** built with React and Tailwind CSS.
+This project highlights personal skills, projects, and experiences in a visually appealing way with animations and effects like **starry background with shooting stars** ✨.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Responsive-Portfolio
+## 🚀 Features
+
+✨ **Starry Background Animation** – Custom canvas animation with stars and shooting stars.
+📱 **Fully Responsive Design** – Works seamlessly on desktop, tablet, and mobile devices.
+🎨 **Modern UI/UX** – Sleek design with smooth transitions, gradients, and minimal aesthetic.
+🧩 **Modular Components** – Reusable React components for easy maintenance.
+📂 **Projects Showcase** – Dedicated section to highlight personal projects with details.
+📜 **About & Skills Section** – Professionally structured presentation of skills and background.
+📬 **Contact Form** – Integrated form for easy communication.
+
+---
+
+## 🛠️ Tech Stack
+
+* **React.js** – Component-based architecture
+* **Tailwind CSS** – Utility-first CSS for styling
+* **Framer Motion** – For smooth animations and interactions
+* **Canvas API** – Used for the custom star & shooting star background animation
+* **Vite** – Fast build and development
+
+---
+
+## 📂 Project Structure
+
+```bash
+portfolio/
+ ┣ 📂 public/            # Static assets (images, favicon, etc.)
+ ┣ 📂 src/
+ ┃ ┣ 📂 components/      # Reusable UI components (Navbar, Footer, etc.)
+ ┃ ┣ 📂 sections/        # Main portfolio sections (Hero, About, Projects, Contact)
+ ┃ ┣ 📜 App.jsx          # Root component
+ ┃ ┣ 📜 index.jsx        # Entry point
+ ┣ 📜 package.json       # Dependencies & project metadata
+ ┣ 📜 tailwind.config.js # Tailwind configuration
+ ┣ 📜 vite.config.js     # Vite configuration
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📸 Project Preview
+
+Here’s how the portfolio looks in action:
+
+![Portfolio Preview](./screenshots/preview.png)
+
+*(Replace `preview.png` with your actual screenshot path.)*
+
+---
+
+## 🧩 Challenges & Solutions
+
+### Challenge:
+
+Implementing a **star and shooting star background** without affecting performance.
+
+### Solution:
+
+Used the **HTML Canvas API** with `requestAnimationFrame()` for efficient rendering.
+Stars were given randomized **position, size, and opacity**. Shooting stars were triggered occasionally by giving certain stars higher velocity and trails.
+This created a **natural night sky effect** ✨ while keeping performance smooth.
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m "Add new feature"`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Create a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – feel free to use and adapt it.
+
+---
+
