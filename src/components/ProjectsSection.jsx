@@ -138,11 +138,11 @@ const projects = [
     {
         id: 3,
         title: "E-commerce Platform",
-        description: "Full-featured E-commerce platform using HTML and CSS",
+        description: "Built a responsive landing page using React and Tailwind CSS, featuring scroll-triggered (AOS) and carousel card animations to create an engaging user experience",
         image: "/Projects/Project 3.png",
-        tags: ["HTML, CSS"],
-        // demoUrl: "#",
-        githubUrl: "https://github.com/Shardul1719/nike",
+        tags: ["React, TailwindCSS"],
+        demoUrl: "https://new-psi-brown.vercel.app/",
+        githubUrl: "https://github.com/Shardul1719/new",
     },
 ];
 
