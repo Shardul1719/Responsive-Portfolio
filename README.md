@@ -81,9 +81,7 @@ Here’s how the portfolio looks in action:
 
 ![Portfolio Preview](./screenshots/preview.png)
 
-*(Replace `preview.png` with your actual screenshot path.)*
-
----
+https://responsive-portfolio-9are.vercel.app/
 
 ## 🧩 Challenges & Solutions
 
